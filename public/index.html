@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Atelier</title>
+        <title>My Art Gallery</title>
+        <style>
+            /* 기본 스타일 추가 */
+            #gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            img {
+                border: 1px solid #ccc;
+                padding: 5px;
+                background-color: #f9f9f9;
+            }
+        </style>
     </head>
     <body>
-        <h1>Welcome to My Atelier</h1>
-        <script src="src/app.js"></script>
+        <h1>Welcome to My Art Gallery</h1>
+
+        <!-- 이미지를 표시할 갤러리 공간 -->
+        <div id="gallery"></div>
+
+        <!-- 스크립트 연결 -->
+        <script src="/script.js"></script>
     </body>
 </html>
